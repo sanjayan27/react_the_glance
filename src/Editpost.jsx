@@ -55,4 +55,4 @@ const Editpost = ({posts,setEditTitle,setEditBody,editTitle,editBody,handleEdit}
   )
 }
 
-export default Editpost
+export default Editpost 

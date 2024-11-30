@@ -105,7 +105,7 @@ const App = () => {
     const response = await api.put(`/posts/${id}`,updatedPost)
     const result = response.data
     setPosts(posts.map(post=> post.id === id ? 
-      {... result}:post));;
+      {...result}:post));;
     setEditBody('');
     setEditTitle('');
     navigate('/');
