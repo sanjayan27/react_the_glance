@@ -39,6 +39,7 @@ const App = () => {
         console.log(err.response.headers)
       }finally{
         setIsLoading(false)
+        console.log(isLoading)
       }
     }
     setTimeout(()=>fetchApi(),2000);
